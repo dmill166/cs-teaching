@@ -2,6 +2,8 @@
 
 Open computer-science course materials, **built in public** and aligned to MSU Denver's CS curriculum, ABET CAC student outcomes, and the ACM/IEEE-CS CS2023 knowledge areas.
 
+**Public home:** [dakotalearns.com](https://dakotalearns.com) (source: [`dmill166/dakotalearns`](https://github.com/dmill166/dakotalearns)) — the readable front door; these course repos are the canonical source of materials.
+
 This is the **index repo** — it ties together one repo per course. Each course is its own pair of repositories:
 
 - a **public** repo with student-facing materials (notes, slides, lab & assignment prompts, starter code, outcomes map), and
