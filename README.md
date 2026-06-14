@@ -23,7 +23,7 @@ That split is deliberate: it keeps everything open **except** what would comprom
 ## Why build in public
 
 1. **Teaching prep.** The repos *are* the teaching materials — adjunct-ready and reusable.
-2. **Accessibility.** Free, openly licensed CS materials anyone can learn from or teach with.
+2. **Accessibility.** Free CS materials anyone can read and learn from (noncommercial, with attribution).
 3. **Portfolio.** A public, ABET-mapped body of work that doubles as a tested-experience artifact.
 
 ## Content engine
@@ -37,8 +37,10 @@ Cadence: 1–2 per week once there's material to show. Series framing: **"Teachi
 
 ## Licensing
 
-- **Course content:** [CC BY 4.0](LICENSE-CONTENT.md)
-- **Code:** [MIT](LICENSE)
+- **Course content:** [CC BY-NC-ND 4.0](LICENSE-CONTENT.md) — read/share, noncommercial, attribution, no derivatives.
+- **Code:** [PolyForm Noncommercial 1.0.0](LICENSE) — noncommercial use.
+
+For commercial use or adaptations, [contact for permission](https://github.com/dmill166). These licenses cover original work only and grant no rights to third-party materials a course references — see [COPYRIGHT_POLICY.md](COPYRIGHT_POLICY.md).
 
 ## Repo + project conventions
 
