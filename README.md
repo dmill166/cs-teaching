@@ -4,6 +4,8 @@ Open computer-science course materials, **built in public** and aligned to MSU D
 
 **Public home:** [dakotalearns.com](https://dakotalearns.com) (source: [`dmill166/dakotalearns`](https://github.com/dmill166/dakotalearns)) — the readable front door; these course repos are the canonical source of materials.
 
+> **Affiliation:** Independent materials by Dakota Hollmann. **Not affiliated with, endorsed by, or sponsored by Metropolitan State University of Denver.** MSU Denver course codes and objectives are referenced for curriculum alignment only.
+
 This is the **index repo** — it ties together one repo per course. Each course is its own pair of repositories:
 
 - a **public** repo with student-facing materials (notes, slides, lab & assignment prompts, starter code, outcomes map), and
