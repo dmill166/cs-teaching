@@ -49,4 +49,4 @@ For commercial use or adaptations, [contact for permission](https://github.com/d
 ## Repo + project conventions
 
 - **One repo per course** (not a monorepo) + this index — each course can be linked, posted about, and graduated independently.
-- Tracking the work *across* repos (the build backlog, content calendar, what's shipped) is best handled by a **GitHub Project (v2) board** at the user/org level — a board spans repos; it doesn't replace the repo split. See the build state in `life-os` (`01_career/teaching/active_state_teaching.md`) for the canonical next-steps list.
+- Tracking the work *across* repos (the build backlog, content calendar, what's shipped) is best handled by a **GitHub Project (v2) board** at the user/org level — a board spans repos; it doesn't replace the repo split.
