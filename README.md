@@ -17,7 +17,7 @@ That split is deliberate: it keeps everything open **except** what would comprom
 
 | Course | Title | Public repo | Status |
 |---|---|---|---|
-| **CS 1050** | Computer Science 1 (Python) | [`msudenver-cs1050`](https://github.com/dmill166/msudenver-cs1050) | 🟢 pilot — scaffolded |
+| **CS 1050** | Computer Science 1 (Python) | [`computer-science-1`](https://github.com/dmill166/computer-science-1) | 🟢 pilot — scaffolded |
 | CS 1030 | Computer Science Principles | _planned_ | ⚪ parked |
 | CS 2050 | Computer Science 2 / Data Structures | _planned_ | ⚪ parked |
 | CS 3810 | Principles of Database Systems | _planned_ | ⚪ parked |

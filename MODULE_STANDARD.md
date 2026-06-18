@@ -17,7 +17,7 @@ Other sections (verify steps, troubleshooting, references) are welcome as the co
 
 - **Transparency over mystery.** If a choice might make a student wonder "why this and not that?", answer it in the FAQ rather than leaving it implicit.
 - **Accessibility-first core, optional depth.** The core path never assumes prior knowledge; everything that does goes under Advanced Instructions, opt-in.
-- **Decisions live where they're felt.** Course-wide rationale belongs in `cs1050_design_rationale.md`; a *module-specific* decision belongs in that module's FAQ so the reader finds it in context.
+- **Decisions live where they're felt.** Course-wide rationale belongs in `design_rationale.md`; a *module-specific* decision belongs in that module's FAQ so the reader finds it in context.
 - **Plain language.** Beginners are the audience. Define terms or skip them.
 - **No third-party copyrighted content.** Modules cite and align to sources but never reproduce them. Non-negotiable — see [`COPYRIGHT_POLICY.md`](COPYRIGHT_POLICY.md).
 
