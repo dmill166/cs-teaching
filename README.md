@@ -15,14 +15,14 @@ That split is deliberate: it keeps everything open **except** what would comprom
 
 ## Courses
 
-| Course | Title | Public repo | Status |
-|---|---|---|---|
-| **CS 1050** | Computer Science 1 (Python) | [`computer-science-1`](https://github.com/dmill166/computer-science-1) | 🟢 pilot — scaffolded |
-| CS 1030 | Computer Science Principles | _planned_ | ⚪ parked |
-| CS 2050 | Computer Science 2 / Data Structures | _planned_ | ⚪ parked |
-| CS 3810 | Principles of Database Systems | _planned_ | ⚪ parked |
+| Course | Public repo | Status |
+|---|---|---|
+| **Computer Science 1** (Python) | [`computer-science-1`](https://github.com/dmill166/computer-science-1) | 🟢 pilot — scaffolded |
+| Computer Science Principles | _planned_ | ⚪ parked |
+| Computer Science 2 / Data Structures | _planned_ | ⚪ parked |
+| Database Systems | _planned_ | ⚪ parked |
 
-> The **CS 1050** pilot is built end-to-end first; its structure and lessons then template the other three. Repos live under the `dmill166` GitHub account.
+> The **Computer Science 1** pilot is built end-to-end first; its structure and lessons then template the other three. Repos live under the `dmill166` GitHub account.
 
 ## Why build in public
 
