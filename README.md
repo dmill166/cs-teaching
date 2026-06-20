@@ -1,6 +1,6 @@
 # cs-teaching
 
-Open computer-science course materials, **built in public** and aligned to MSU Denver's CS curriculum, ABET CAC student outcomes, and the ACM/IEEE-CS CS2023 knowledge areas.
+Open, beginner-first computer-science course materials, **built in public** — aligned to recognized CS outcomes (ABET CAC, ACM/IEEE-CS CS2023) and, for alignment only, university course objectives.
 
 **Public home:** [dakotalearns.com](https://dakotalearns.com) (source: [`dmill166/dakotalearns`](https://github.com/dmill166/dakotalearns)) — the readable front door; these course repos are the canonical source of materials.
 
@@ -32,12 +32,9 @@ That split is deliberate: it keeps everything open **except** what would comprom
 
 ## Content engine
 
-Each finished module produces:
+Each finished module produces a short **LinkedIn post** — the concept in plain language, linking back to the lesson on [dakotalearns.com](https://dakotalearns.com).
 
-- **1 LinkedIn post** — the concept in plain language + a link to the repo, and
-- **1 WordPress long-form** — the lecture rewritten as an article.
-
-Cadence: 1–2 per week once there's material to show. Series framing: **"Teaching CS1 in public."** The repo is the single backlog — content is written once and reused, never twice.
+Cadence: 1–2 per week once there's material to show. Series framing: **"Teaching CS1 in public."** The lesson itself is never rewritten for the site — it's authored once in the course repo and rendered on dakotalearns.com via build-time sync. One source, never two.
 
 ## Licensing
 
