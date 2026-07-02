@@ -19,3 +19,8 @@ Per MSU Denver's **Editorial Standards** (2024-03-08, §"Using Our Name"):
 **Our practical application:** use **"MSU Denver"** for alignment references; reserve the full name for the formal affiliation/disclaimer statements we already carry. We don't otherwise adopt MSU Denver's internal house style (degree formatting, "Dr." usage, etc.) — we're independent — though the doc is a useful AP-aligned reference if we ever want it.
 
 *Source:* held privately at `dakotalearns/_local/MSUDenver_EditorialStandards_240308.pdf` (their copyrighted doc — not redistributed); public: [Brand Central](https://www.msudenver.edu/brandcentral/).
+
+## Naming our own artifacts
+
+- **Spell artifact names out; don't coin acronyms.** Course artifacts stay unabbreviated — "**Checkpoint 1**", not "CP1"; short is fine, acronyms are not. They collide with things you won't see coming.
+- **If a short form is ever unavoidable, collision-check it first** (common abbreviations, slang, medical/legal terms). Two we dodged: **WUE** (Warm-Up Exercise) = *Western Undergraduate Exchange*; **CP** (Checkpoint) is a notorious abbreviation for child-abuse material **and** the medical abbreviation for Cerebral Palsy.
