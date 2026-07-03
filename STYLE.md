@@ -20,6 +20,26 @@ Per MSU Denver's **Editorial Standards** (2024-03-08, §"Using Our Name"):
 
 *Source:* held privately at `dakotalearns/_local/MSUDenver_EditorialStandards_240308.pdf` (their copyrighted doc — not redistributed); public: [Brand Central](https://www.msudenver.edu/brandcentral/).
 
+## Writing for the dual audience (decided 2026-07-03)
+
+Course content serves **two readers at once**: students in a formal university section, and self-learners who found the site on their own. Rules:
+
+- **Self-learners are the default reader.** Anything true for everyone is written plainly; anything section-specific gets conditional framing — "Enrolled in a course section that uses this material? … Self-learning? …" — never bare "submit through the LMS" / "bring it to class."
+- **Watch-list phrases** that assume enrollment: LMS/Canvas, "in class," "office hours," "your instructor," "this section," due-date mechanics. They're allowed *inside* the conditional framing, not outside it.
+- **Pacing language is relative** ("this week," "before your first week ends"), so self-paced learners get honest rhythm cues. Absolute dates live only in the per-term schedule overlay, referenced as a term-scoped parenthetical: *"(In Fall 2026, that means before Monday, Aug 24 — see the schedule.)"*
+
+## Clean page URLs (decided 2026-07-03)
+
+Per-item pages (lectures, checkpoints, labs, assignments) are named **`index.md`** inside their `NN_topic/` folder, so the site URL is the folder alone (`/lectures/00_what_is_computation/`), never a doubled `/NN_topic/NN_topic/` segment. The theme's `navigation.indexes` feature makes the folder title the clickable page. Known tradeoff, accepted: GitHub's folder view auto-renders `README.md` but not `index.md` — the site is the reading surface; the repo is the code surface.
+
+## Code style (all published code — decided 2026-07-03)
+
+Every file a student (or future Dakota) opens is a style exemplar, whether or not it was meant as one. So published code — including starters, self-checks, and grading scripts — follows industry standards:
+
+- **Python: [PEP 8](https://peps.python.org/pep-0008/)** (79-character lines; 72 for comments/docstrings) plus **[PEP 257](https://peps.python.org/pep-0257/)** one-line docstrings on every function. Lint before shipping (`flake8`/`ruff`). *(Note the numbers precisely: PEP 8 says 79/72 — "80–100" is common industry relaxation (Black uses 88), not the official guide.)*
+- **JavaScript: [JSDoc](https://jsdoc.app/)** headers on every function (`@param`/`@returns`) + section banners; inline `//` comments only where the code can't say it.
+- **Never pluralize a type name in code font** — not "**ints**"; write "`int` values" or use the English word ("integers"). A pluralized identifier reads as a different identifier.
+
 ## Naming our own artifacts
 
 - **Spell artifact names out; don't coin acronyms.** Course artifacts stay unabbreviated — "**Checkpoint 1**", not "CP1"; short is fine, acronyms are not. They collide with things you won't see coming.

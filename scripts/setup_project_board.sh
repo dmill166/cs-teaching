@@ -35,9 +35,9 @@ add "Decide term commitment: Fall 2026 (stretch) vs Spring 2027 (primary)" \
 
 # --- Build: weeks 1-5 teachable spine (per cs1050_design_rationale.md) ---
 add "Week 1 — Unit 0+1: What is computation; values, types, variables, I/O" \
-    "Track: Build / Course: CS1050. Slides + finger exercise + lab + assignment a01. Private: solution+rubric."
+    "Track: Build / Course: CS1050. Slides + checkpoint + lab + assignment a01. Private: solution+rubric."
 add "Week 2 — Units 2+3: Decisions (branching) and Iteration (loops)" \
-    "Track: Build / Course: CS1050. Slides + finger exercise + lab + assignment a02. Private: solution+rubric."
+    "Track: Build / Course: CS1050. Slides + checkpoint + lab + assignment a02. Private: solution+rubric."
 add "Week 3 — Unit 4: Strings & sequence basics" \
     "Track: Build / Course: CS1050. Slides + lab + assignment a03. Private: solution+rubric."
 add "Week 4 — Unit 5: Functions, decomposition, abstraction, scope" \
