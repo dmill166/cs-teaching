@@ -35,7 +35,7 @@ Course content serves **two readers at once**: students in a formal university s
 
 ## Clean page URLs (decided 2026-07-03)
 
-Per-item pages (lectures, checkpoints, labs, assignments) are named **`index.md`** inside their `NN_topic/` folder, so the site URL is the folder alone (`/lectures/00_what_is_computation/`), never a doubled `/NN_topic/NN_topic/` segment. The theme's `navigation.indexes` feature makes the folder title the clickable page. Known tradeoff, accepted: GitHub's folder view auto-renders `README.md` but not `index.md` — the site is the reading surface; the repo is the code surface.
+Per-item pages (lectures, checkpoints, labs, assignments) are named **`index.md`** inside their folder, so the site URL is the folder alone (`/unit00_what_is_computation/`), never a doubled `/NN_topic/NN_topic/` segment. (Folder layout itself: [`COURSE_STRUCTURE.md`](COURSE_STRUCTURE.md).) The theme's `navigation.indexes` feature makes the folder title the clickable page. Known tradeoff, accepted: GitHub's folder view auto-renders `README.md` but not `index.md` — the site is the reading surface; the repo is the code surface.
 
 ## Code style (all published code — decided 2026-07-03)
 
