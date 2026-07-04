@@ -28,6 +28,11 @@ Course content serves **two readers at once**: students in a formal university s
 - **Watch-list phrases** that assume enrollment: LMS/Canvas, "in class," "office hours," "your instructor," "this section," due-date mechanics. They're allowed *inside* the conditional framing, not outside it.
 - **Pacing language is relative** ("this week," "before your first week ends"), so self-paced learners get honest rhythm cues. Absolute dates live only in the per-term schedule overlay, referenced as a term-scoped parenthetical: *"(In Fall 2026, that means before Monday, Aug 24 — see the schedule.)"*
 
+## Page furniture placement (decided 2026-07-03)
+
+- **Instructor-facing collapsibles sit at the top of the page** — directly under the H1, before the student-facing content — never at the bottom. Collapsed, they cost students one gray line; buried, instructors never find them. Same rule for "How to read this page" notes on syllabus-type pages.
+- **No item counts in headings** ("Content units (9)") — the count goes stale the moment the list changes. Counts live in prose, where editing the list means touching the sentence anyway.
+
 ## Clean page URLs (decided 2026-07-03)
 
 Per-item pages (lectures, checkpoints, labs, assignments) are named **`index.md`** inside their `NN_topic/` folder, so the site URL is the folder alone (`/lectures/00_what_is_computation/`), never a doubled `/NN_topic/NN_topic/` segment. The theme's `navigation.indexes` feature makes the folder title the clickable page. Known tradeoff, accepted: GitHub's folder view auto-renders `README.md` but not `index.md` — the site is the reading surface; the repo is the code surface.
