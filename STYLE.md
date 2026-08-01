@@ -45,6 +45,14 @@ Every file a student (or future Dakota) opens is a style exemplar, whether or no
 - **JavaScript: [JSDoc](https://jsdoc.app/)** headers on every function (`@param`/`@returns`) + section banners; inline `//` comments only where the code can't say it.
 - **Never pluralize a type name in code font** — not "**ints**"; write "`int` values" or use the English word ("integers"). A pluralized identifier reads as a different identifier.
 
+## Time estimates (decided 2026-07-21)
+
+State effort estimates in Dakota's conversational register, and always as a **range**, never a single number:
+
+- **Instructional pages** (guides, labs, setup): *"This could take you somewhere around 15–20 minutes."* — the standard sentence form.
+- **Passing mentions** (nav pages, link blurbs): the compact form *"around 15–20 minutes"* is fine.
+- **Avoid** the imperative "Budget X minutes" / "Allow X minutes" — reads like a syllabus, not like Dakota.
+
 ## Naming our own artifacts
 
 - **Spell artifact names out; don't coin acronyms.** Course artifacts stay unabbreviated — "**Checkpoint 1**", not "CP1"; short is fine, acronyms are not. They collide with things you won't see coming.
