@@ -1,6 +1,6 @@
 # Module Standard
 
-> **Applies to every module in every course** of the cs-teaching initiative (CS 1050 today; CS 1030/2050/3810 later). The goal: a learner (or another instructor) can tell at a glance **what a module includes, what it deliberately leaves out, and why**. Transparency is a feature.
+> **Applies to every module in every course** of the cs-teaching initiative (Computer Science 1 today; Computer Science Principles, Computer Science 2, and Database Systems later). The goal: a learner (or another instructor) can tell at a glance **what a module includes, what it deliberately leaves out, and why**. Transparency is a feature.
 
 ## Required sections (every module README)
 

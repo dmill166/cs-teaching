@@ -22,7 +22,7 @@ gh project field-create "$PROJ" --owner "$OWNER" --name "Track" \
   --single-select-options "Build,Content,Ops"
 gh project field-create "$PROJ" --owner "$OWNER" --name "Course" \
   --data-type SINGLE_SELECT \
-  --single-select-options "CS1050,CS1030,CS2050,CS3810,Cross"
+  --single-select-options "CS1,CSP,CS2,DB,Cross"
 
 echo ">> Seeding items (draft issues)..."
 add() { gh project item-create "$PROJ" --owner "$OWNER" --title "$1" --body "$2"; }
@@ -33,23 +33,23 @@ add "Get current CS 1050 section syllabus from Zhu/Mota" \
 add "Decide term commitment: Fall 2026 (stretch) vs Spring 2027 (primary)" \
     "Track: Ops. Drives the build clock. See active_state_teaching.md timeline."
 
-# --- Build: weeks 1-5 teachable spine (per cs1050_design_rationale.md) ---
+# --- Build: weeks 1-5 teachable spine (per the design rationale) ---
 add "Week 1 — Unit 0+1: What is computation; values, types, variables, I/O" \
-    "Track: Build / Course: CS1050. Slides + checkpoint + lab + assignment a01. Private: solution+rubric."
+    "Track: Build / Course: CS1. Slides + checkpoint + lab + assignment a01. Private: solution+rubric."
 add "Week 2 — Units 2+3: Decisions (branching) and Iteration (loops)" \
-    "Track: Build / Course: CS1050. Slides + checkpoint + lab + assignment a02. Private: solution+rubric."
+    "Track: Build / Course: CS1. Slides + checkpoint + lab + assignment a02. Private: solution+rubric."
 add "Week 3 — Unit 4: Strings & sequence basics" \
-    "Track: Build / Course: CS1050. Slides + lab + assignment a03. Private: solution+rubric."
+    "Track: Build / Course: CS1. Slides + lab + assignment a03. Private: solution+rubric."
 add "Week 4 — Unit 5: Functions, decomposition, abstraction, scope" \
-    "Track: Build / Course: CS1050. Slides + lab + assignment a04. Private: solution+rubric."
+    "Track: Build / Course: CS1. Slides + lab + assignment a04. Private: solution+rubric."
 add "Week 5 — Unit 6: Lists, tuples, mutability & ALIASING [CS2 bridge ***]" \
-    "Track: Build / Course: CS1050. Highest-leverage CS2 prep. Extra examples + dedicated assessment."
+    "Track: Build / Course: CS1. Highest-leverage CS2 prep. Extra examples + dedicated assessment."
 
 # --- Build: foundational artifacts ---
 add "Promote syllabus v1 -> official MSU section syllabus" \
-    "Track: Build / Course: CS1050. Add MSU boilerplate (disability/Title IX/drop dates), finalize grading weights & AI policy."
+    "Track: Build / Course: CS1. Add MSU boilerplate (disability/Title IX/drop dates), finalize grading weights & AI policy."
 add "Set up CI autograding on public repo (student-runnable tests only)" \
-    "Track: Build / Course: CS1050. Public tests in repo; hidden tests in -solutions/grading."
+    "Track: Build / Course: CS1. Public tests in repo; hidden tests in -solutions/grading."
 
 # --- Content (build-in-public) ---
 add "Post 1 — Launch: 'Teaching CS1 in public' (intro + repo link)" \

@@ -42,7 +42,7 @@ IFS=$'\t' read -r SYL_PVTI SYL_DI < <(ids_for "section syllabus from Zhu/Mota") 
 if [ -n "${SYL_PVTI:-}" ]; then
   set_sel "$SYL_PVTI" "$STAGE_F"  "$(optid Stage Backlog)"
   set_sel "$SYL_PVTI" "$TRACK_F"  "$(optid Track Ops)"
-  set_sel "$SYL_PVTI" "$COURSE_F" "$(optid Course CS1050)"
+  set_sel "$SYL_PVTI" "$COURSE_F" "$(optid Course CS1)"
   retitle "${SYL_DI:-}" "Optional cross-check: design vs a live MSU section syllabus"
   echo "   -> Backlog (optional)."
 else echo "   (not found — already changed?)"; fi
@@ -58,10 +58,10 @@ else echo "   (not found — already changed?)"; fi
 echo ">> 3. Add Module 0 build item..."
 NEW=$(gh project item-create "$NUM" --owner "$OWNER" \
   --title "Week 0 / Module 0 — Environment setup (per-OS Python install)" \
-  --body "Track: Build / Course: CS1050. Built 2026-06-14: resources/setup/ — macOS/Windows/Linux install, IDLE-first, verify, troubleshooting. Pending: final review + use in week 1." \
+  --body "Track: Build / Course: CS1. Built 2026-06-14: resources/setup/ — macOS/Windows/Linux install, IDLE-first, verify, troubleshooting. Pending: final review + use in week 1." \
   --format json | jq -r '.id')
 set_sel "$NEW" "$TRACK_F"  "$(optid Track Build)"
-set_sel "$NEW" "$COURSE_F" "$(optid Course CS1050)"
+set_sel "$NEW" "$COURSE_F" "$(optid Course CS1)"
 set_sel "$NEW" "$STAGE_F"  "$(optid Stage Review)"
 echo "   added -> Review."
 

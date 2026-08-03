@@ -39,14 +39,14 @@ gh project item-list "$NUM" --owner "$OWNER" --limit 100 --format json \
   | while IFS=$'\t' read -r iid title; do
       track=""; course=""; stage=""
       case "$title" in
-        *"section syllabus from Zhu/Mota"*) track=Ops;     course=CS1050; stage=Now ;;
+        *"section syllabus from Zhu/Mota"*) track=Ops;     course=CS1; stage=Now ;;
         *"Decide term commitment"*)         track=Ops;     course=Cross;  stage=Now ;;
-        Week*)                              track=Build;   course=CS1050 ;;
-        *"Promote syllabus"*)               track=Build;   course=CS1050 ;;
-        *autograding*)                      track=Build;   course=CS1050 ;;
+        Week*)                              track=Build;   course=CS1 ;;
+        *"Promote syllabus"*)               track=Build;   course=CS1 ;;
+        *autograding*)                      track=Build;   course=CS1 ;;
         *"Launch:"*)                        track=Content; course=Cross  ;;
-        *ABET*)                             track=Content; course=CS1050 ;;
-        *aliasing*)                         track=Content; course=CS1050 ;;
+        *ABET*)                             track=Content; course=CS1 ;;
+        *aliasing*)                         track=Content; course=CS1 ;;
         *) echo "   ?  unmatched: $title"; continue ;;
       esac
       printf '   -> %-7s %-7s %-4s | %s\n' "$track" "$course" "${stage:-—}" "$title"

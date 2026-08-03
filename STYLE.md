@@ -53,6 +53,12 @@ State effort estimates in Dakota's conversational register, and always as a **ra
 - **Passing mentions** (nav pages, link blurbs): the compact form *"around 15–20 minutes"* is fine.
 - **Avoid** the imperative "Budget X minutes" / "Allow X minutes" — reads like a syllabus, not like Dakota.
 
+## Version numbers (decided 2026-07-27)
+
+- **Release lines are bare MAJOR.MINOR:** "Python 3.13 or newer," "3.11/3.12 also work." Never append `.x` — it's decoration, and python.org doesn't use it either.
+- **Full MAJOR.MINOR.PATCH appears only in literal example output** ("you should see something like `Python 3.14.6`"), where showing a real version string is the honest illustration.
+- Patch-level differences never drive course guidance; if one ever does, that's a special callout, not a version reference.
+
 ## Naming our own artifacts
 
 - **Spell artifact names out; don't coin acronyms.** Course artifacts stay unabbreviated — "**Checkpoint 1**", not "CP1"; short is fine, acronyms are not. They collide with things you won't see coming.
