@@ -28,6 +28,7 @@
 
 - `answer` is the zero-based index into `options`.
 - `explain` (optional but strongly encouraged) shows on a correct answer — reinforce *why*, don't just congratulate.
+- `hint` — **expected on every question** (Dakota's convention, 2026-08-02): renders as a collapsed "Need a hint?" toggle beneath the options, openable *before* answering. Write it as a nudge toward the reasoning, never a restatement of the answer. (The field is technically optional — a question without one just shows no toggle, and older renderers ignore it safely — but authoring a quiz question without a hint is a review flag, not a choice.)
 - Prompts/options/explanations support a deliberate markdown subset: `` `code` `` and `**bold**` only. Everything else is escaped.
 - Learners can retry until correct; a wrong answer never reveals the answer.
 

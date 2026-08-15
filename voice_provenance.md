@@ -23,9 +23,9 @@ An HTML comment (invisible on the rendered page, greppable in source), placed at
 | `dakota-authored` | Dakota wrote it, or reviewed/edited a shaped draft and approved it as his. The end state for all voice-bearing prose. |
 | `dakota-voice-draft` | Assistant-drafted in Dakota's voice, **pending his review**. Must never publish — the site gate hard-fails on it. |
 | `assistant-mechanical` | Mechanical content (objectives, quiz/Parsons data, key-term lists, summaries) drafted by the assistant per the collaboration model; Dakota reviews before ship. |
-| `assistant-shared` | Shared authorship in progress — assistant structure/draft awaiting Dakota's narration or affirmation; promotes to `dakota-authored` on his read. |
+| `assistant-shared` | Shared authorship per the collaboration model — assistant structure with Dakota's substantive input (he seeds, narrates, or affirms the framing). On a **reviewed, finalized page** this is a permanent, honest end state, not a defect. During an active review cycle it can also mark content awaiting his affirmation — in that case the marker's inline note names the pending promote. |
 
-Lecture pages carry a marker **per spine section**; other pages carry at least one **page-level** marker. Any other value after `author_status:` is treated as a typo and fails the gate.
+Lecture pages carry a marker **per spine section** — deliberately, not messily: authorship genuinely varies section-by-section on a lecture (Dakota's frame and explanations vs. mechanical quiz data), the per-section trail is the strongest form of the authorship record, and keeping voice-core in its own marker-bounded blocks means regenerating a mechanical section can never disturb authored prose. Simpler pages (syllabi, guides, references) carry one **page-level** marker. Readers never see any of this — HTML comments are invisible on the rendered page. Any other value after `author_status:` is treated as a typo and fails the gate.
 
 ## Enforcement (two vendored halves)
 
