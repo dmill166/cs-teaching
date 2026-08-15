@@ -53,6 +53,14 @@ State effort estimates in Dakota's conversational register, and always as a **ra
 - **Passing mentions** (nav pages, link blurbs): the compact form *"around 15–20 minutes"* is fine.
 - **Avoid** the imperative "Budget X minutes" / "Allow X minutes" — reads like a syllabus, not like Dakota.
 
+## Glossary vs. abbreviation tooltips (decided 2026-08-02)
+
+Two different tools for two different readers:
+
+- **Site-wide abbreviation tooltips** (`includes/abbreviations.md`) take **every acronym that appears on the site**, including instructor/accreditation jargon (ABET, CAC, OCW, CS2023). Cheap, hover-only, zero page real estate.
+- **Glossary entries** (`docs/glossary.md`) are reserved for **student-facing vocabulary a learner actually needs to own** (IDLE, REPL, I/O, OOP, PATH). The glossary is a study surface, not an acronym dump — "ABET" does not belong next to "IDLE."
+- Rule of thumb: every glossary-worthy acronym also gets a tooltip; the reverse is false. First in-prose use still spells terms out per the vocabulary convention.
+
 ## Version numbers (decided 2026-07-27)
 
 - **Release lines are bare MAJOR.MINOR:** "Python 3.13 or newer," "3.11/3.12 also work." Never append `.x` — it's decoration, and python.org doesn't use it either.
